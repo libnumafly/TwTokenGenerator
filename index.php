@@ -22,7 +22,7 @@
                 <label class="mdl-textfield__label" for="sample3">Secret...</label>
             </div>
             <!-- Raised button -->
-            <button class="mdl-button mdl-js-button mdl-button--raised">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
                 Proceed
             </button>
         </form>
