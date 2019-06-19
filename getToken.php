@@ -1,6 +1,9 @@
 <?php
-const CONSUMER_KEY = $_POST['a1'];
-const CONSUMER_SECRET = $_POST['a2'];
+foreach ($_POST as $name => $value) {
+    $$name = $value;
+}
+const CONSUMER_KEY = ''.$a1;
+const CONSUMER_SECRET = ''.$a2;
 
 session_set_cookie_params(600);
 session_start();
