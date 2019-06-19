@@ -34,6 +34,7 @@ try {
 		}
 		$_SESSION['oauth_token'] = $res['oauth_token'];
 		$_SESSION['oauth_token_secret'] = $res['oauth_token_secret'];
+		session_write_close();
 
 		// リクエストトークンを持ってTiwtterの認証画面に行くリンクを表示
 		header('Content-Type: text/html');
