@@ -52,7 +52,7 @@ catch (Exception $e) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
 
-<body style="width: calc(100% - 4px); margin-top:2px; margin-bottom: 2px; margin-right: auto; margin-left : auto;">
+<body style="width: calc(100% - 4px); margin-right: auto; margin-left : auto;">
 	<script>
 		function copyToClipboard(target) {
 			var copyTarget = document.getElementById(target);
