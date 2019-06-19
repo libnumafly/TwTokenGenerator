@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
 
-<body style="width: 98%;">
+<body style="width: 98%; align-items: center;">
 
     <form action="./getToken.php" method="post">
         Consumer API key
