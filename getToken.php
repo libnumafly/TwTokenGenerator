@@ -1,6 +1,6 @@
 <?php
-const CONSUMER_KEY = 'fyQuE6HM63gJOEOKhKQDlGPMs';
-const CONSUMER_SECRET = 'hM6BKxY5Klz2IpuVqZlqDebftKLfI7vmaDAZL4p6wxgJ2Yq5nz';
+const CONSUMER_KEY = $_POST['a1'];
+const CONSUMER_SECRET = $_POST['a2'];
 
 session_set_cookie_params(600);
 session_start();

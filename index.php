@@ -10,20 +10,21 @@
 
     <body>
 
-        Consumer API key
-        <form action="#">
+        <form action="./getToken.php" method="post">
+            Consumer API key
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="key">
-                <label class="mdl-textfield__label" for="sample3">Text...</label>
+                <input class="mdl-textfield__input" type="text" id="a1">
+                <label class="mdl-textfield__label" for="sample3">Key...</label>
             </div>
-        </form>
-
-        Consumer API secret key
-        <form action="#">
+            Consumer API secret key
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="secret">
-                <label class="mdl-textfield__label" for="sample3">Text...</label>
+                <input class="mdl-textfield__input" type="text" id="a2">
+                <label class="mdl-textfield__label" for="sample3">Secret...</label>
             </div>
+            <!-- Colored FAB button -->
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                <i class="material-icons">next</i>
+            </button>
         </form>
 
     </body>
