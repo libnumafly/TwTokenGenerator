@@ -3,8 +3,8 @@ foreach ($_POST as $name => $value) {
     $$name = $value;
 }
 
-$CONSUMER_KEY = ''.$a1;
-$CONSUMER_SECRET = ''.$a2;
+define(CONSUMER_KEY, ''.$a1);
+define(CONSUMER_SECRET, ''.$a2);
 
 session_set_cookie_params(600);
 session_start();
@@ -98,7 +98,7 @@ function post($url, $params, $token = null, $secret = null) {
  */
 function createOAuthHeader($url, $params, $token, $secret) {
 	$sigparams = [
-		'oauth_consumer_key'     => $CONSUMER_KEY,
+		'oauth_consumer_key'     => CONSUMER_KEY,
 		'oauth_signature_method' => 'HMAC-SHA1',
 		'oauth_timestamp'        => time(),
 		'oauth_nonce'            => md5(uniqid(rand(), true)),
@@ -114,7 +114,7 @@ function createOAuthHeader($url, $params, $token, $secret) {
 	// https://developer.twitter.com/en/docs/basics/authentication/guides/creating-a-signature.html
 	ksort($sigparams);
 	$data = 'POST&'.rawurlencode($url).'&'.rawurlencode(http_build_query($sigparams, '', '&', PHP_QUERY_RFC3986)); // ここでは関係無いが、パラメータにスペースが含まれてる時用にRFC3986を明示的に指定
-	$key  = rawurlencode($CONSUMER_SECRET).'&';
+	$key  = rawurlencode(CONSUMER_SECRET).'&';
 	$key .= isset($secret) ? rawurlencode($secret) : ''; // リクエストトークンがあればセット
 	$hash = hash_hmac('sha1', $data, $key, true);
 	$sigparams['oauth_signature'] =  base64_encode($hash);
