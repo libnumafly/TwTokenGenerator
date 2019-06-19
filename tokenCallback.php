@@ -45,27 +45,29 @@ catch (Exception $e) {
 <html>
 
 <header>
-    <link rel="stylesheet" href="./material.min.css">
-    <link rel="stylesheet" href="./material.indigo-pink.min.css">
-    <script src="./material.min.js"></script>
-    <link rel="stylesheet" href="./icon.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./material.min.css">
+	<link rel="stylesheet" href="./material.indigo-pink.min.css">
+	<script src="./material.min.js"></script>
+	<link rel="stylesheet" href="./icon.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
 
 <body>
 
-        Access Token
-        <br>
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-            <?php echo '<input class="mdl-textfield__input" type="text" id="a1" name="a1" value="'.$res['oauth_token'].'">'; ?>
-            <label class="mdl-textfield__label">Token...</label>
-        </div>
-        <br>
-        Access Token Secret
-        <br>
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-            <?php echo '<input class="mdl-textfield__input" type="text" id="a2" name="a2" value="'.$res['oauth_token_secret'].'">'; ?>
-            <label class="mdl-textfield__label">Secret...</label>
-        </div>
+	Access Token
+	<br>
+	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
+		<?php echo '<input class="mdl-textfield__input" type="text" id="a1" name="a1" value="'.$res['oauth_token'].'">'; ?>
+		<label class="mdl-textfield__label">Token...</label>
+	</div>
+	<br>
+	Access Token Secret
+	<br>
+	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
+		<?php echo '<input class="mdl-textfield__input" type="text" id="a2" name="a2" value="'.$res['oauth_token_secret'].'">'; ?>
+		<label class="mdl-textfield__label">Secret...</label>
+	</div>
 
 </body>
+
+</html>
