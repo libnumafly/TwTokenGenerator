@@ -36,5 +36,3 @@ catch (Exception $e) {
 	header('Content-Type: text/plain');
 	echo '失敗！: '.$e->getMessage();
 }
-
-session_destroy();
