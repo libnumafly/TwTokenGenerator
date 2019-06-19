@@ -6,9 +6,9 @@ foreach ($_POST as $name => $value) {
     $$name = $value;
 }
 
-define(CONSUMER_KEY, ''.$O6LCfVYL38ElHuAzVTrfEp93JXtrInke);
-define(CONSUMER_SECRET, ''.$boA4ydgFzphDTiMAHgxuPf57Gmx49Unq);
-define(OAUTH_CALLBACK_URL, ''.$KIC6r8vkbnCEbzBWUd5Zvft8z7mguD9x);
+define(CONSUMER_KEY, ''.$a1);
+define(CONSUMER_SECRET, ''.$a2);
+define(OAUTH_CALLBACK_URL, ''.$a3);
 
 session_set_cookie_params(600);
 session_start();
