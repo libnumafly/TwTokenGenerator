@@ -41,7 +41,17 @@
     <br>
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
         onclick="document.getElementById('a1').value='';document.getElementById('a2').value='';">
-        Clear
+        Clear CK/CS
+    </button>
+    <br>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
+        onclick="document.getElementById('a3').value='https://twtokengenerator.herokuapp.com/tokenCallback.php';">
+        Callback reset to default
+    </button>
+    <br>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
+        onclick="document.getElementById('a3').value='oob';">
+        Callback set to out-of-band('oob')
     </button>
 
 </body>
