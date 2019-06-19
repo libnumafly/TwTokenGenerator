@@ -33,8 +33,9 @@ try {
 
 		// リクエストトークンを持ってTiwtterの認証画面に行くリンクを表示
 		header('Content-Type: text/html');
-		$url = 'https://api.twitter.com/oauth/authenticate?oauth_token='.$res['oauth_token'];
-		echo '<a href="'.$url.'">'.$url.'</a>';
+        $url = 'https://api.twitter.com/oauth/authenticate?oauth_token='.$res['oauth_token'];
+        header('Location: '.$url.'');
+        echo '<a href="'.$url.'">'.$url.'</a>';
 	}
 	else {
 		//--------------------------------------
