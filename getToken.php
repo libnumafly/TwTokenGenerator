@@ -3,8 +3,8 @@ foreach ($_POST as $name => $value) {
     $$name = $value;
 }
 
-$CONSUMER_KEY = print ''.$a1;
-$CONSUMER_SECRET = print ''.$a2;
+$CONSUMER_KEY = ''.$a1;
+$CONSUMER_SECRET = ''.$a2;
 
 session_set_cookie_params(600);
 session_start();
