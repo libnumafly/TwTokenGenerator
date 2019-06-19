@@ -53,6 +53,13 @@ catch (Exception $e) {
 </header>
 
 <body style="width: calc(100% - 4px); margin-right: auto; margin-left : auto;">
+	<script>
+		function copyToClipboard(target) {
+			var copyTarget = document.getElementById(target);
+			copyTarget.select();
+			document.execCommand("Copy");
+		}
+	</script>
 
 	Access Token
 	<br>
@@ -62,7 +69,7 @@ catch (Exception $e) {
 	</div>
 	<br>
 	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
-		onclick="document.getElementsById('a1').select(); document.execCommand('copy');">
+		onclick="copyToClipboard('a1');">
 		Copy AT
 	</button>
 	<br>
@@ -74,7 +81,7 @@ catch (Exception $e) {
 	</div>
 	<br>
 	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
-		onclick="var textarea = document.getElementsById('a2')[0]; textarea.select(); document.execCommand('copy');">
+		onclick="copyToClipboard('a2');">
 		Copy AS
 	</button>
 
