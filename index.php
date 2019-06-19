@@ -1,16 +1,16 @@
 <html>
 
 <header>
-    <link rel="stylesheet" href="./material.min.css">
-    <link rel="stylesheet" href="./material.indigo-pink.min.css">
-    <script src="./material.min.js"></script>
-    <link rel="stylesheet" href="./icon.css">
+    <link rel="stylesheet" href="/src/material.min.css">
+    <link rel="stylesheet" href="/src/material.indigo-pink.min.css">
+    <script src="/src/material.min.js"></script>
+    <link rel="stylesheet" href="/src/icon.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
 
-<body style="width: calc(100% - 4px); margin-right: auto; margin-left : auto;">
+<body style="width: calc(100% - 4px); margin-top:2px; margin-bottom: 2px; margin-right: auto; margin-left : auto;">
 
-    <form action="./getToken.php" method="post">
+    <form action="./tokenGet.php" method="post">
         Consumer API key
         <br>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
