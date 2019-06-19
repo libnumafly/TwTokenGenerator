@@ -44,10 +44,12 @@
         Clear CK/CS
     </button>
     <br>
+    <br>
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
         onclick="document.getElementById('a3').value='https://twtokengenerator.herokuapp.com/tokenCallback.php';">
         Callback reset to default
     </button>
+    <br>
     <br>
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
         onclick="document.getElementById('a3').value='oob';">
