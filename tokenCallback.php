@@ -14,8 +14,10 @@ try {
 			[
 				'oauth_verifier' => $_GET['oauth_verifier'],
 			],
-			$_SESSION['oauth_token'],       // セッションに保存していたリクエストトークンを署名に使う
-			$_SESSION['oauth_token_secret'] // 同上
+			//$_SESSION['oauth_token'],       // セッションに保存していたリクエストトークンを署名に使う
+            //$_SESSION['oauth_token_secret'] // 同上
+            $_GET['oauth_token'],       
+			$_GET['oauth_token_secret'] 
 		);
 		if (!isset($res['oauth_token'])) {
 			throw new Exception('レスポンス→ '.var_export($res, true));
