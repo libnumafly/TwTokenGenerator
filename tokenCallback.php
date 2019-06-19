@@ -45,11 +45,11 @@ catch (Exception $e) {
 <html>
 
 <header>
-    <link rel="stylesheet" href="/src/material.min.css">
-    <link rel="stylesheet" href="/src/material.indigo-pink.min.css">
-    <script src="/src/material.min.js"></script>
-    <link rel="stylesheet" href="/src/icon.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/src/material.min.css">
+	<link rel="stylesheet" href="/src/material.indigo-pink.min.css">
+	<script src="/src/material.min.js"></script>
+	<link rel="stylesheet" href="/src/icon.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
 
 <body style="width: calc(100% - 4px); margin-right: auto; margin-left : auto;">
@@ -61,12 +61,22 @@ catch (Exception $e) {
 		<label class="mdl-textfield__label">Token...</label>
 	</div>
 	<br>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
+		onclick="document.getElementsById('a1').select(); document.execCommand('copy');">
+		Copy AT
+	</button>
+	<br>
 	Access Token Secret
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
 		<?php echo '<input class="mdl-textfield__input" type="text" id="a2" name="a2" value="'.$res['oauth_token_secret'].'">'; ?>
 		<label class="mdl-textfield__label">Secret...</label>
 	</div>
+	<br>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
+		onclick="var textarea = document.getElementsById('a2')[0]; textarea.select(); document.execCommand('copy');">
+		Copy AS
+	</button>
 
 </body>
 

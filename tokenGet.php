@@ -41,7 +41,7 @@ try {
         $url = 'https://api.twitter.com/oauth/authorize?oauth_token='.$res['oauth_token'];
 		//header('Location: '.$url.'');
 		echo '<meta http-equiv="refresh" content="0;URL='.$url.'">';
-        echo '<a href="'.$url.'">'.$url.'</a>';
+        echo 'Redirecting to <a href="'.$url.'">'.$url.'</a>, but click this link if not redirect automatically.';
 	}
 	else {}
 }
