@@ -73,6 +73,8 @@ catch (Exception $e) {
 		Copy AT
 	</button>
 	<br>
+	<br>
+
 	Access Token Secret
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
@@ -84,6 +86,36 @@ catch (Exception $e) {
 		onclick="copyToClipboard('a2');">
 		Copy AS
 	</button>
+	<br>
+	<br>
+
+	User ID
+	<br>
+	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
+		<?php echo '<input class="mdl-textfield__input" type="text" id="a3" name="a3" value="'.$res['user_id'].'">'; ?>
+		<label class="mdl-textfield__label">Token...</label>
+	</div>
+	<br>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
+		onclick="copyToClipboard('a3');">
+		Copy ID
+	</button>
+	<br>
+	<br>
+
+	Screen Name
+	<br>
+	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
+		<?php echo '<input class="mdl-textfield__input" type="text" id="a4" name="a4" value="'.$res['screen_name'].'">'; ?>
+		<label class="mdl-textfield__label">Token...</label>
+	</div>
+	<br>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
+		onclick="copyToClipboard('a4');">
+		Copy Name
+	</button>
+	<br>
+	<br>
 
 </body>
 
