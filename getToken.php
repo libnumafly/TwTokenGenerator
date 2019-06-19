@@ -1,4 +1,7 @@
 <?php
+
+require_once('common.php');
+
 foreach ($_POST as $name => $value) {
     $$name = $value;
 }
@@ -44,5 +47,3 @@ catch (Exception $e) {
 	header('Content-Type: text/plain');
 	echo '失敗！: '.$e->getMessage();
 }
-
-require_once('common.php');

@@ -1,5 +1,7 @@
 <?php
 
+require_once('common.php');
+
 try {
 	if (empty($_GET)) {}
 	else {
@@ -36,5 +38,3 @@ catch (Exception $e) {
 }
 
 session_destroy();
-
-require_once('common.php');
