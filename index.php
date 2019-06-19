@@ -1,6 +1,6 @@
 <?php
-const fyQuE6HM63gJOEOKhKQDlGPMs = '!! Consumer Key (API Key) を入力 !!';
-const hM6BKxY5Klz2IpuVqZlqDebftKLfI7vmaDAZL4p6wxgJ2Yq5nz = '!! Consumer Secret (API Secret) を入力 !!';
+const CONSUMER_KEY = 'fyQuE6HM63gJOEOKhKQDlGPMs';
+const CONSUMER_SECRET = 'hM6BKxY5Klz2IpuVqZlqDebftKLfI7vmaDAZL4p6wxgJ2Yq5nz';
 
 session_set_cookie_params(600);
 session_start();
