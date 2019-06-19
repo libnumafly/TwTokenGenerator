@@ -40,6 +40,8 @@ catch (Exception $e) {
     exit();
 }
 
+?>
+
 <html>
 
 <header>
