@@ -21,9 +21,9 @@
                 <input class="mdl-textfield__input" type="text" id="a2">
                 <label class="mdl-textfield__label" for="sample3">Secret...</label>
             </div>
-            <!-- Colored FAB button -->
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                <i class="material-icons">next</i>
+            <!-- Raised button -->
+            <button class="mdl-button mdl-js-button mdl-button--raised">
+                Proceed
             </button>
         </form>
 
