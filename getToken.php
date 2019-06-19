@@ -40,7 +40,7 @@ try {
 		header('Content-Type: text/html');
         $url = 'https://api.twitter.com/oauth/authenticate?oauth_token='.$res['oauth_token'];
 		//header('Location: '.$url.'');
-		echo '<meta http-equiv="refresh" content="0;URL='.$url.'">'
+		echo '<meta http-equiv="refresh" content="0;URL='.$url.'">';
         echo '<a href="'.$url.'">'.$url.'</a>';
 	}
 	else {}
