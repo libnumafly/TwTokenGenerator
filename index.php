@@ -33,7 +33,7 @@
             <label class="mdl-textfield__label">Callback URL...</label>
         </div>
         <br>
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;">
             Proceed
         </button>
     </form>
