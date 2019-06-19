@@ -18,7 +18,7 @@ try {
 		$res = post(
 			'https://api.twitter.com/oauth/request_token',
 			[
-				'oauth_callback' => '', // localhostだとこれは使えないらしいのでカラ。
+				'oauth_callback' => 'https://twtokengenerator.herokuapp.com/token.php', // localhostだとこれは使えないらしいのでカラ。
 			]
 		);
 		if (!isset($res['oauth_token'])) {
