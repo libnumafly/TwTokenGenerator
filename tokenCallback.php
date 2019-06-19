@@ -93,7 +93,7 @@ catch (Exception $e) {
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
 		<?php echo '<input class="mdl-textfield__input" type="text" id="a3" name="a3" value="'.$res['user_id'].'">'; ?>
-		<label class="mdl-textfield__label">Token...</label>
+		<label class="mdl-textfield__label">ID...</label>
 	</div>
 	<br>
 	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
@@ -107,7 +107,7 @@ catch (Exception $e) {
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
 		<?php echo '<input class="mdl-textfield__input" type="text" id="a4" name="a4" value="'.$res['screen_name'].'">'; ?>
-		<label class="mdl-textfield__label">Token...</label>
+		<label class="mdl-textfield__label">Name...</label>
 	</div>
 	<br>
 	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 100%;"
