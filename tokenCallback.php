@@ -52,7 +52,7 @@ catch (Exception $e) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
 
-<body>
+<body style="width: calc(100% - 4px); margin-right: auto; margin-left : auto;">
 
 	Access Token
 	<br>
