@@ -14,21 +14,21 @@
         Consumer API key
         <br>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-            <input class="mdl-textfield__input" type="text" id="a1" name="O6LCfVYL38ElHuAzVTrfEp93JXtrInke">
+            <input class="mdl-textfield__input" type="text" id="a1" name="a1">
             <label class="mdl-textfield__label">Key...</label>
         </div>
         <br>
         Consumer API secret key
         <br>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-            <input class="mdl-textfield__input" type="text" id="a2" name="boA4ydgFzphDTiMAHgxuPf57Gmx49Unq">
+            <input class="mdl-textfield__input" type="text" id="a2" name="a2">
             <label class="mdl-textfield__label">Secret...</label>
         </div>
         <br>
         Callback URL
         <br>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-            <input class="mdl-textfield__input" type="text" id="a3" name="KIC6r8vkbnCEbzBWUd5Zvft8z7mguD9x"
+            <input class="mdl-textfield__input" type="text" id="a3" name="a3"
                 value="https://twtokengenerator.herokuapp.com/tokenCallback.php">
             <label class="mdl-textfield__label">Callback URL...</label>
         </div>
