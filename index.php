@@ -14,14 +14,21 @@
             Consumer API key
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input class="mdl-textfield__input" type="text" id="a1" name="a1">
-                <label class="mdl-textfield__label" for="sample3">Key...</label>
+                <label class="mdl-textfield__label">Key...</label>
             </div>
+            <br>
             Consumer API secret key
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input class="mdl-textfield__input" type="text" id="a2" name="a2">
-                <label class="mdl-textfield__label" for="sample3">Secret...</label>
+                <label class="mdl-textfield__label">Secret...</label>
             </div>
-            <!-- Raised button -->
+            <br>
+            Callback URL
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="a3" name="a3">
+                <label class="mdl-textfield__label">Callback URL...</label>
+            </div>
+            <br>
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
                 Proceed
             </button>
