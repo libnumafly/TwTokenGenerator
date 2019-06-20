@@ -65,7 +65,7 @@ catch (Exception $e) {
 	Access Token
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-		<?php echo '<input class="mdl-textfield__input" type="text" id="a1" name="a1" value="'.$res['oauth_token'].'">'; ?>
+		<?php echo '<input readonly class="mdl-textfield__input" type="text" id="a1" name="a1" value="'.$res['oauth_token'].'">'; ?>
 		<label class="mdl-textfield__label">Token...</label>
 	</div>
 	<br>
@@ -79,7 +79,7 @@ catch (Exception $e) {
 	Access Token Secret
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-		<?php echo '<input class="mdl-textfield__input" type="text" id="a2" name="a2" value="'.$res['oauth_token_secret'].'">'; ?>
+		<?php echo '<input readonly class="mdl-textfield__input" type="text" id="a2" name="a2" value="'.$res['oauth_token_secret'].'">'; ?>
 		<label class="mdl-textfield__label">Secret...</label>
 	</div>
 	<br>
@@ -93,7 +93,7 @@ catch (Exception $e) {
 	User ID
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-		<?php echo '<input class="mdl-textfield__input" type="text" id="a3" name="a3" value="'.$res['user_id'].'">'; ?>
+		<?php echo '<input readonly class="mdl-textfield__input" type="text" id="a3" name="a3" value="'.$res['user_id'].'">'; ?>
 		<label class="mdl-textfield__label">ID...</label>
 	</div>
 	<br>
@@ -107,7 +107,7 @@ catch (Exception $e) {
 	Screen Name
 	<br>
 	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
-		<?php echo '<input class="mdl-textfield__input" type="text" id="a4" name="a4" value="'.$res['screen_name'].'">'; ?>
+		<?php echo '<input readonly class="mdl-textfield__input" type="text" id="a4" name="a4" value="'.$res['screen_name'].'">'; ?>
 		<label class="mdl-textfield__label">Name...</label>
 	</div>
 	<br>
