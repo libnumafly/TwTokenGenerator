@@ -6,6 +6,7 @@
     <script src="/src/material.min.js"></script>
     <link rel="stylesheet" href="/src/icon.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter API Token Generator</title>
 </header>
 
 <body style="width: calc(100% - 4px); margin-right: auto; margin-left : auto;">
